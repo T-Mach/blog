@@ -7,13 +7,13 @@ title: 时光机
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: Searoc
+language: zh
+timezone: 'Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.searoc.tk
+url: https://t-mach.me
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -100,4 +100,4 @@ theme: landscape
 deploy:
   type: git
   repository: git@github.com:T-Mach/t-mach.github.io.git
-  branch: hexo-source
+  branch: master

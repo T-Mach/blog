@@ -10,10 +10,10 @@ script:
   - hexo generate
 deploy:
   provider: pages
-  skip-cleanup: true
-  github-token: $GitHub
-  keep-history: true
+  skip_cleanup: true
+  github_token: $GitHub
+  keep_history: true
   on:
     branch: hexo-source
-  local-dir: public
+  local_dir: public
   target_branch: master
